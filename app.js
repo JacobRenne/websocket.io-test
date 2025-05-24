@@ -14,7 +14,7 @@ const rollModel = require('./models/rollModel')
 
 app.use(express.static('public'))
 
-app.get("/rolls", async (req, res) => {
+app.get("/kast", async (req, res) => {
   try {
     let rolls = await rollModel.find()
     res.status(200).json(rolls)
