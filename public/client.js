@@ -4,7 +4,6 @@ const nameForm = document.querySelector('#name-form')
 const nameInput = document.querySelector('#name-input')
 const gameDiv = document.querySelector('#game')
 const welcomeText = document.querySelector('#welcome')
-const totalText = document.querySelector('#total')
 const rollButton = document.querySelector('#roll')
 const diceLog = document.querySelector('#log')
 
